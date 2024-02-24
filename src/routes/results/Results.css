@@ -1,0 +1,21 @@
+.results {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 50px;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.results__title {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.results__description {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
+}

@@ -1,38 +1,56 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: #FAFAFA;
+  font-family: 'Montserrat';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__title {
+  font-weight: 600;
+  font-size: 26px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__props {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+}
+
+.no-results {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.no-results__title {
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.no-results-btn {
+  width: 95px;
+  height: 35px;
+  background-color: #2EE5AC;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.no-results-btn__txt {
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.no-results-btn__txt:hover {
+  text-decoration: underline;
+}
+
+.no-results-btn__txt:active {
+  color: #e8e8e8;
 }
